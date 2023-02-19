@@ -1,152 +1,132 @@
-/* General */
+/* - GENERAL SETTINGS - */
 
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: #101010;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  user-select: none;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  scrollbar-color: red #101010;
+    font-family: "Roboto", sans-serif;
+    background-color: #101010;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    scrollbar-color: red #101010;
 }
 
 h2 {
-  color: white;
+    color: white;
 }
-
-/* Flexbox container */
 
 .container {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
-/* Main video */
+/* - MAIN VIDEO SETTINGS - */
+
+.mainvideo {
+    width: 100%;
+    height: 680px;
+    border: 0;
+}
+
+.hr {
+    background-color: red;
+    width: 100%;
+    height: 3px;
+    border: none;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.name {
+    display: inline;
+    position: relative;
+    bottom: 40px;
+    color: #fff;
+}
+
+.subscribe {
+    align-self: center;
+}
+
+.subscribe-button {
+    background-color: #f00;
+    color: #fff;
+    padding: 5px 15px;
+    border: 1px solid #f00;
+}
+
+.video-title {
+    margin-left: 15px;
+    font-size: larger;
+    font-weight: 500;
+    color: #fff;
+}
 
 .video-and-comments {
   width: 65%;
 }
 
-.mainvideo {
-  width: 100%;
-  height: 680px;
-  border: 0;
-}
+/* - SIDEBAR SETTINGS - */
 
 .sidevideo {
-  border-radius: 10px;
-  width: 80%;
-  height: 25%;
-  border: 0;
+    border-radius: 10px;
+    width: 80%;
+    height: 25%;
+    border: 0;
 }
-
-/* Information about video */
-
-.profile {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
-
-.video-image {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.video-stats {
-  display: flex;
-  justify-content: space-between;
-  margin: 5px 0 15px 15px;
-}
-
-.title-icon {
-  margin: 5px;
-}
-
-.video-about {
-  display: flex;
-  justify-content: space-between;
-}
-
-figure {
-  margin-left: 10px;
-}
-
-.youtuber-name {
-  display: inline;
-  position: relative;
-  bottom: 40px;
-  color: #fff;
-}
-
-.subscribe {
-  align-self: center;
-}
-
-.subscribe-button {
-  background-color: #f00;
-  color: #fff;
-  padding: 5px 15px;
-  border: 1px solid #f00;
-}
-
-.video-title {
-  margin-left: 15px;
-  font-size: larger;
-  font-weight: 500;
-  color: #fff;
-}
-
-.hr {
-  background-color: red;
-  width: 100%;
-  height: 3px;
-  border: none;
-}
-
-.hr1 {
-  background-color: white;
-  width: 90%;
-  height: 1px;
-  border: none;
-}
-
-/*Aside bar*/
 
 aside {
-  width: 32%;
+    width: 32%;
 }
 
 .recommend-video {
-  display: flex;
-  margin: 0 10px 20px 0;
+    display: flex;
+    margin: 0 10px 20px 0;
 }
 
 .recommend-video-title {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 .video-info-recommend {
-  margin: 5px 0 0 5px;
+    margin: 5px 0 0 5px;
 }
 
 .creator-name {
-  line-height: 80%;
-}
-
-.link {
-  color: white
+    line-height: 80%;
 }
 
 .sidenav {
-  height: 100%;
-  width: 33%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  overflow-x: hidden;
-  overflow-y: auto;
-  overflow-y: scroll;
+    height: 100%;
+    width: 33%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overflow-y: scroll;
 }
+
+.hr1 {
+    background-color: white;
+    width: 90%;
+    height: 1px;
+    border: none;
+}
+
+.link {
+    color: white
+}
+
+/* - CSS END - */
+
+/*-------------------------------------*/
+
+/* - CSS TEST - */
+
+/* - CSS TEST END- */
